@@ -14,16 +14,17 @@ Azure Synapse Analytics is then used to query and analyze the transformed data, 
 
 ## 2. Table of Contents
 
-- [1. Project Title and Description](#1-project-overview-and-description)
+- [1. Project Overview and Description](#1-project-overview-and-description)
 - [2. Table of Contents](#2-table-of-contents)
-- [3. Architecture Overview](#3-project-architecture)
+- [3. Project Architecture](#3-project-architecture)
 - [4. Setup and Prerequisites](#4-setup-and-prerequisites)
-- [5. Tools and Technologies Used](#5-tools-and-technologies-used)
-- [6. Setup and Deployment](#6-setup-and-deployment)
-- [7. Dashboard and Analysis](#7-dashboard-and-analysis)
-- [8. Future Enhancements](#8-future-enhancements)
-- [9. Conclusion](#9-conclusion)
-- [10. References](#10-references)
+- [5. Data](#5-dataset)
+- [6.Data Ingestion : Azure Data Factory](#6-data-ingestion--azure-data-factory)
+- [7. Raw Data Store : Azure Data Lake Gen 2](#7-raw-data-store--azure-data-lake-gen-2)
+- [8. Data Transformation : Azure Databricks](#8-data-transformation--azure-databricks)
+- [9. Transformed Data Store : Azure Data Lake Gen 2](#9-transformed-data-store--azure-data-lake-gen-2)
+- [10. Analytics : Azure Synapse Analytics](#10-analytics--azure-synapse-analytics)
+- [11. Dashboarding : Power-BI](#11-dashboarding--power-bi)
 
 
 
@@ -105,24 +106,25 @@ This section outlines the essential prerequisites and setup steps required to re
      The raw data for this project is stored in a public GitHub repository. You’ll need to clone the repository or directly connect to it using Azure Data Factory for ingestion. Here is the repository link: [Tokyo Olympics Data](#).
 
 
+#### **Note : The following sections contains screenshots and link to relevant resources which will be helpful while implementing different phases of this project.**
 
-## Dataset
+## 5. Dataset
 
 **Data used in this Project :** https://github.com/MJshah001/Tokyo-Olympics-DataAnalysis-Azure-DataEngineering-Project/tree/main/data
 
 **Original Data Source :** https://www.kaggle.com/datasets/arjunprasadsarkhel/2021-olympics-in-tokyo
 
 
-## Data Ingestion : Azure Data Factory
+## 6. Data Ingestion : Azure Data Factory
 ![Data Ingestion](https://github.com/MJshah001/Tokyo-Olympics-DataAnalysis-Azure-DataEngineering-Project/blob/main/Resources/Data%20Ingestion/Data%20Factory%20Pipeline.png)
 
 Data Factory Input pipeline JSON : [DataFactoryInputPipeline.json](https://github.com/MJshah001/Tokyo-Olympics-DataAnalysis-Azure-DataEngineering-Project/blob/main/Resources/Data%20Ingestion/dataFactoryinputpipeline.json)
 
-## Raw Data Store : Azure Data Lake Gen 2
+## 7. Raw Data Store : Azure Data Lake Gen 2
 ![Raw Data Store](https://github.com/MJshah001/Tokyo-Olympics-DataAnalysis-Azure-DataEngineering-Project/blob/main/Resources/Data%20Store/DataLake%20Raw%20Data%20SS.png)
 
 
-## Data Transformation : Azure Databricks 
+## 8. Data Transformation : Azure Databricks 
 ![Data Transformation](https://github.com/MJshah001/Tokyo-Olympics-DataAnalysis-Azure-DataEngineering-Project/blob/main/Resources/Data%20Transformation/Data%20Bricks%20Notebook%20SS1.png)
 
 Ipynb : [Tokyo Olympic Data Transformation.ipynb](https://github.com/MJshah001/Tokyo-Olympics-DataAnalysis-Azure-DataEngineering-Project/blob/main/Resources/Data%20Transformation/Tokyo%20Olympic%20Data%20Transformation.ipynb)
@@ -130,16 +132,16 @@ Ipynb : [Tokyo Olympic Data Transformation.ipynb](https://github.com/MJshah001/T
 Html : [Tokyo Olympic Data Transformation.html](https://github.com/MJshah001/Tokyo-Olympics-DataAnalysis-Azure-DataEngineering-Project/blob/main/Resources/Data%20Transformation/Tokyo%20Olympic%20Data%20Transformation.html)
 
 
-## Transformed Data Store : Azure Data Lake Gen 2
+## 9. Transformed Data Store : Azure Data Lake Gen 2
 ![Raw Data Store](https://github.com/MJshah001/Tokyo-Olympics-DataAnalysis-Azure-DataEngineering-Project/blob/main/Resources/Data%20Store/DataLake%20Transformed%20Data%20SS.png)
 
-## Primary Analytics : Azure Synapse Analytics
+## 10. Analytics : Azure Synapse Analytics
 ![Azure Synapse Analytics Database ](https://github.com/MJshah001/Tokyo-Olympics-DataAnalysis-Azure-DataEngineering-Project/blob/main/Resources/Synapse%20Analytics/Azure%20Synapse%20Analytics%20Database%20Model%20SS.png)
 ![Azure Synapse Analytics Sql ](https://github.com/MJshah001/Tokyo-Olympics-DataAnalysis-Azure-DataEngineering-Project/blob/main/Resources/Synapse%20Analytics/Azure%20Synapse%20Analytics%20SQL%20Queries%20SS.png)
 
 Tokyo Olympics SQL file : [TokyoOlympicsInsights.sql](https://github.com/MJshah001/Tokyo-Olympics-DataAnalysis-Azure-DataEngineering-Project/blob/main/Resources/Synapse%20Analytics/TokyoOlympicsInsights.sql)
 
-## Dashboarding : Power BI
+## 11. Dashboarding : Power BI
 ![Power BI](https://github.com/MJshah001/Tokyo-Olympics-DataAnalysis-Azure-DataEngineering-Project/blob/main/Resources/Dashboarding%20BI/Power%20Bi%20Desktop%20Report%20View%20SS.png)
 
 PBIX link : [Tokyo Olympic Data Analysis Report.pbix](https://github.com/MJshah001/Tokyo-Olympics-DataAnalysis-Azure-DataEngineering-Project/blob/main/Resources/Dashboarding%20BI/Tokyo%20Olympic%20Data%20Analysis%20Report.pbix)
