@@ -162,7 +162,7 @@ Link to Dashboard Resources (PPT, Background Image, Icons,...) : [Resources](htt
 
 
 ## Acknowlegments
-Special Thanks to [Federico Pastor](https://www.linkedin.com/in/federico-pastor/?originalSubdomain=uk) for providing such Awsome design Ideas.
+Special Thanks to [Darshil Parmar](https://www.linkedin.com/in/darshil-parmar/) for beautifully explaining Data Engineering & Cloud Concepts and [Federico Pastor](https://www.linkedin.com/in/federico-pastor/?originalSubdomain=uk) for providing such Awsome design Ideas.
 
 
 
