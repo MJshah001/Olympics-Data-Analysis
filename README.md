@@ -3,13 +3,18 @@
 
 ## 1. Project Overview and Description
 
-This project is an end-to-end data engineering solution designed to analyze the 2020 Tokyo Olympics data using Microsoft's Azure cloud services. The project was created to explore and demonstrate the integration of various Azure services for data engineering tasks.
+This project is an end-to-end data engineering solution designed to analyze the [2020 Tokyo Olympics](https://olympics.com/en/olympic-games/tokyo-2020) data using [Microsoft's Azure cloud services](https://azure.microsoft.com/en-us/products/cloud-services). The project was created to explore and demonstrate the integration of various Azure services for data engineering tasks.
 
-The primary goal of this project was to build a scalable and efficient data pipeline that could handle the ingestion, transformation, and analysis of large datasets. The data pipeline begins by sourcing raw data from a GitHub repository using HTTP requests, which is then ingested into Azure Data Lake Storage Gen 2 via Azure Data Factory. 
+The primary goal of this project was to build a scalable and efficient data pipeline that could handle the ingestion, transformation, and analysis of large datasets. The data pipeline begins by sourcing raw data from a [GitHub repository](https://github.com/MJshah001/Tokyo-Olympics-DataAnalysis-Azure-DataEngineering-Project/tree/main/data) using HTTP requests, which is then ingested into Azure Data Lake Storage Gen 2 via Azure Data Factory. 
 
 The raw data is transformed and processed using Azure Databricks, leveraging its powerful Spark engine to handle large-scale data processing tasks using PySpark. Once transformed, the data is stored back in Azure Data Lake, ready for further analysis.
 
 Azure Synapse Analytics is then used to query and analyze the transformed data, and the insights are visualized in an interactive Power BI dashboard. The final dashboard provides a comprehensive overview of key metrics from the Tokyo Olympics, such as medal counts, gender distribution, and event-specific statistics across different countries.
+
+
+
+https://github.com/user-attachments/assets/ea1e12c0-27d0-455b-b5bb-054789f50b9f
+
 
 
 ## 2. Table of Contents
@@ -36,7 +41,7 @@ Azure Synapse Analytics is then used to query and analyze the transformed data, 
 #### Components
 
 - **Data Source**:  
-  The raw data is sourced from a public GitHub repository using HTTP requests. The dataset contains comprehensive details about the Tokyo 2020 Olympics, including athlete performance, medal counts, and event-specific statistics.
+  The raw data is sourced from a public GitHub repository using HTTP requests. The dataset contains comprehensive details about the [Tokyo 2020 Olympics](https://olympics.com/en/olympic-games/tokyo-2020), including athlete performance, medal counts, and event-specific statistics.
 
 - **Data Ingestion**:  
   Azure Data Factory is used to ingest data from the GitHub repository into Azure Data Lake Storage Gen 2. Data Factory orchestrates the data flow, ensuring that the data is securely transferred and stored in its raw form for further processing.
