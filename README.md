@@ -152,6 +152,8 @@ Link to Dashboard Resources (PPT, Background Image, Icons,...) : [Resources](htt
 
 Special Thanks to [Federico Pastor](https://www.linkedin.com/in/federico-pastor/?originalSubdomain=uk) for providing such Awsome design Ideas.
 
+
+## Final Dashboard
 ![Final Report](https://github.com/MJshah001/Tokyo-Olympics-DataAnalysis-Azure-DataEngineering-Project/blob/main/Resources/Dashboarding%20BI/Tokyo%20Olympic%20Medals%20Report.png)
 
 
