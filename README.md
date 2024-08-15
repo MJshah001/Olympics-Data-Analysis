@@ -44,16 +44,16 @@ https://github.com/user-attachments/assets/ea1e12c0-27d0-455b-b5bb-054789f50b9f
   The raw data is sourced from a public GitHub repository using HTTP requests. The dataset contains comprehensive details about the [Tokyo 2020 Olympics](https://olympics.com/en/olympic-games/tokyo-2020), including athlete performance, medal counts, and event-specific statistics.
 
 - **Data Ingestion**:  
-  Azure Data Factory is used to ingest data from the GitHub repository into Azure Data Lake Storage Gen 2. Data Factory orchestrates the data flow, ensuring that the data is securely transferred and stored in its raw form for further processing.
+  [Azure Data Factory](https://azure.microsoft.com/en-us/products/data-factory) is used to ingest data from the GitHub repository into [Azure Data Lake Storage Gen 2](https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-introduction). Data Factory orchestrates the data flow, ensuring that the data is securely transferred and stored in its raw form for further processing.
 
 - **Transformation**:  
-  The raw data is transformed and processed using Azure Databricks. Databricks leverages Apache Spark’s distributed computing capabilities, along with PySpark, to perform large-scale data transformations, cleaning, and aggregation. The transformed data is then stored back in Azure Data Lake Storage Gen 2.
+  The raw data is transformed and processed using [Azure Databricks](https://azure.microsoft.com/en-au/products/databricks). Databricks leverages Apache Spark’s distributed computing capabilities, along with [PySpark](https://spark.apache.org/docs/latest/api/python/index.html#:~:text=PySpark%20is%20the%20Python%20API,for%20interactively%20analyzing%20your%20data.), to perform large-scale data transformations, cleaning, and aggregation. The transformed data is then stored back in Azure Data Lake Storage Gen 2.
 
 - **Analytics**:  
-  Azure Synapse Analytics is utilized for querying and analyzing the transformed data. Synapse allows for the execution of complex SQL queries to generate insights from the data, which are critical for the subsequent visualization stage.
+  [Azure Synapse Analytics](https://azure.microsoft.com/en-us/products/synapse-analytics) is utilized for querying and analyzing the transformed data. Synapse allows for the execution of complex SQL queries to generate insights from the data, which are critical for the subsequent visualization stage.
 
 - **Dashboard**:  
-  The insights generated from Azure Synapse Analytics are visualized using Power BI. The Power BI dashboard provides an interactive and comprehensive view of the key metrics, including medal distributions, gender participation, and event-specific performance across different countries.
+  The insights generated from Azure Synapse Analytics are visualized using [Power BI](https://www.microsoft.com/en-us/power-platform/products/power-bi). The Power BI dashboard provides an interactive and comprehensive view of the key metrics, including medal distributions, gender participation, and event-specific performance across different countries.
 
 
 
