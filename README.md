@@ -90,6 +90,8 @@ This section outlines the essential prerequisites and setup steps required to re
      - **Purpose**: Used to create and share interactive dashboards.
      - **Setup**: Install Power BI Desktop on your local machine (available for download [here](https://powerbi.microsoft.com/desktop/)). Sign in with your Azure credentials and connect to Azure Synapse Analytics to import the data for visualization.
 
+![Resource Group](https://github.com/MJshah001/Tokyo-Olympics-DataAnalysis-Azure-DataEngineering-Project/blob/main/Resources/resource%20group.png)
+
 #### 3. **Development Environment**
    - **IDE**: A code editor such as Visual Studio Code or Jupyter Notebook is recommended for working with PySpark in Databricks.
    - **Python Environment**: Ensure you have Python installed, preferably version 3.7 or later. Install necessary libraries (`pyspark`, `pandas`, `azure-storage-blob`, etc.) in your local environment if you plan to run tests outside of Databricks.
