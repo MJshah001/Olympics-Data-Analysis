@@ -37,7 +37,7 @@ https://github.com/user-attachments/assets/ea1e12c0-27d0-455b-b5bb-054789f50b9f
 ## 3. Project Architecture
 ![Project Architecture](https://github.com/MJshah001/Tokyo-Olympics-DataAnalysis-Azure-DataEngineering-Project/blob/main/Resources/Project%20Architecture%20Tokyo%20Olympic%20Data%20Analytics.jpg)
 
-
+[ProjectArchitecture.pptx](https://github.com/MJshah001/Tokyo-Olympics-DataAnalysis-Azure-DataEngineering-Project/blob/main/Resources/Project%20Architecture.pptx)
 #### Components
 
 - **Data Source**:  
